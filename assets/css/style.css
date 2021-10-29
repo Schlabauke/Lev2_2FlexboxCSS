@@ -1,0 +1,99 @@
+/* Headerhöhe:76px
+Logofarbe: #666
+Logofarbe in hover: #333
+Menüfarbe: #333 
+Menüfarbe in hover: #337ab7 
+Die Farbe des Button “Read more” ist: #745cf9
+Die Farbe des Button:hover “Read more” ist: #5234f9
+
+font-family: 'Raleway', sans-serif;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* ########################### HEADER ########################################## */
+
+header {
+    height: 76px;
+    border-top: 2px solid #333;
+    border-bottom: 2px solid #666;
+    color: #666;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header nav ul {
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+
+header nav ul li {
+    list-style: none;
+    font-size: 15px;
+    padding: 2vw;
+    color: #666;
+}
+
+header nav ul li:hover {
+    color: #337ab7;
+}
+
+h1:hover {
+    color: #333;
+}
+
+/* ############################ Main Styles ################################################### */
+
+main {
+    background: url("https://demo.colorlib.com/wp-content/uploads/sites/59/2016/03/photo-1443527216320-7e744084f5a7-1.jpg") center/cover no-repeat;
+    color: whitesmoke;
+    height: 100vh;
+}
+
+main {
+    /*  text-align: center; */
+    padding: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main article h2 {
+    font-size: 50px;
+    padding: 8vh;
+}
+
+div {
+    text-align: center;
+}
+
+main div p {
+    padding: 2vh;
+}
+
+#download {
+    padding: 2vh 3.5vw;
+    color: whitesmoke;
+    background-color: transparent;
+    border: 2px solid whitesmoke;
+}
+
+#read {
+    padding: 2vh 4vw;
+    color: whitesmoke;
+    background-color: #745cf9;
+    border: 2px solid #745cf9;
+    margin-left: 0.5vw;
+}
+
+#read:hover {
+    background-color: #5234f9;
+}
